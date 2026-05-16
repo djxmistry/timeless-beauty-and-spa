@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeless Beauty and Spa | Osogbo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="logo">
+        <img src="https://i.ibb.co/Rph7twRV/logo.png" alt="Timeless Beauty & Spa Logo">
+      </div>
+      <div class="nav-links hidden md:flex gap-8">
+        <a href="#services" class="text-rose-800 hover:text-rose-600 transition">Services</a>
+        <a href="#gallery" class="text-rose-800 hover:text-rose-600 transition">Gallery</a>
+        <a href="#reviews" class="text-rose-800 hover:text-rose-600 transition">Reviews</a>
+        <a href="#contact" class="text-rose-800 hover:text-rose-600 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero mt-16 md:mt-0 relative h-screen overflow-hidden">
+    <video autoplay muted loop playsinline class="hero-video absolute inset-0 w-full h-full object-cover">
+      <source src="hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+    
+    <div class="hero-content relative z-10 h-full flex items-center justify-center text-center px-6">
+      <div>
+        <h1 class="text-6xl md:text-7xl font-bold tracking-wider text-white">TIMELESS</h1>
+        <p class="text-4xl md:text-5xl text-white mt-2">Beauty & Spa</p>
+        <p class="mt-8 text-xl text-white">Elegance • Serenity • Beauty</p>
+        <p class="mt-6 text-yellow-300 text-lg">★★★★★ 5.0 Rating on Google</p>
+        <a href="#contact" class="hero-btn mt-10 inline-block bg-rose-700 hover:bg-rose-800 text-white px-10 py-4 rounded-full text-lg font-semibold transition">Book Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6 text-rose-800">Timeless Elegance</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Timeless Beauty and Spa is a premium beauty destination located in Osogbo.
+        We provide professional beauty treatments in a relaxing environment where
+        clients can enjoy elegance, comfort and exceptional service.
+      </p>
+      <p class="text-lg text-gray-700 leading-relaxed mt-4">
+        Our specialists are experienced in braids, haircuts & premium barbing, hair styling, artistic tattooing, nail care, and
+        complete beauty treatments designed to help you look and feel your best.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-gradient-to-b from-amber-50 to-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold text-center text-rose-800 mb-16">Our Premium Services</h2>
+      
+      <!-- Service 1 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <img src="https://i.ibb.co/dwnbpCND/1.jpg" class="service-image rounded-3xl shadow-2xl">
+        <div class="service-text">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Facials</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Experience our luxurious facial treatments designed to rejuvenate and refresh your skin. Our specialists use premium skincare products to enhance your natural radiance and leave your skin glowing.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Deep cleansing treatments</li>
+            <li>✓ Anti-aging facials</li>
+            <li>✓ Hydrating masks</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="service-text order-2 md:order-1">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Body Massage</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Indulge in our signature massage therapies that melt away tension and stress. Our trained therapists combine traditional and modern techniques for the ultimate relaxation experience.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Swedish massage</li>
+            <li>✓ Deep tissue massage</li>
+            <li>✓ Aromatherapy massage</li>
+          </ul>
+        </div>
+        <img src="https://i.ibb.co/WpzwXjZS/2.jpg" class="service-image rounded-3xl shadow-2xl order-1 md:order-2">
+      </div>
+
+      <!-- Service 3: Barbing (Added) -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" class="service-image rounded-3xl shadow-2xl" alt="Premium Barbing">
+        <div class="service-text">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Premium Barbing</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Step up your style with our elite grooming and barbing services. From clean haircuts and sharp skin fades to expert beard styling, our precision barbers keep you looking clean and confident.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Precision cuts & custom fades</li>
+            <li>✓ Luxury beard grooming & hot shaves</li>
+            <li>✓ Hair treatment & coloring</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="service-text order-2 md:order-1">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Waxing</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Professional waxing services for smooth, silky skin. Our gentle techniques minimize discomfort while delivering long-lasting results for a flawless finish.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Full body waxing</li>
+            <li>✓ Facial waxing</li>
+            <li>✓ Brazilian waxing</li>
+          </ul>
+        </div>
+        <img src="https://i.ibb.co/Q756Pmzh/3.jpg" class="service-image rounded-3xl shadow-2xl order-1 md:order-2">
+      </div>
+
+      <!-- Service 5: Tattoo (Added) -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=600&q=80" class="service-image rounded-3xl shadow-2xl" alt="Artistic Tattoo">
+        <div class="service-text">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Artistic Tattooing</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Tell your story with customized body art curated by professional artists. We guarantee absolute hygiene, sharp lines, and vibrant details in a creative, safe environment.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Custom illustration & flash designs</li>
+            <li>✓ Minimalist & full-concept body art</li>
+            <li>✓ Strictly sterile, medical-grade setup</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="service-text order-2 md:order-1">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Pedicure & Manicure</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Pamper your hands and feet with our premium nail care services. Choose from classic designs or custom nail art for a polished, elegant look.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Gel manicure & pedicure</li>
+            <li>✓ Acrylic extensions</li>
+            <li>✓ Custom nail art</li>
+          </ul>
+        </div>
+        <img src="https://i.ibb.co/Lh0jZnCt/4.jpg" class="service-image rounded-3xl shadow-2xl order-1 md:order-2">
+      </div>
+
+      <!-- Service 7 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <img src="https://i.ibb.co/tdg6xRc/5.jpg" class="service-image rounded-3xl shadow-2xl">
+        <div class="service-text">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Skin Care Treatments</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Specialized skin treatments targeting specific concerns. From acne-prone skin to sensitive complexions, our experts develop personalized solutions for your unique needs.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Chemical peels</li>
+            <li>✓ Microdermabrasion</li>
+            <li>✓ Hydrating treatments</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 8 -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="service-text order-2 md:order-1">
+          <h3 class="text-4xl font-bold text-rose-800 mb-4">Beauty Therapy</h3>
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">Complete beauty transformation services combining multiple treatments for a comprehensive spa experience. Feel confident and beautiful inside and out.</p>
+          <ul class="text-gray-600 space-y-2">
+            <li>✓ Hair styling & treatments</li>
+            <li>✓ Makeup services</li>
+            <li>✓ Complete beauty packages</li>
+          </ul>
+        </div>
+        <img src="https://i.ibb.co/n8QM2Ngb/6.jpg" class="service-image rounded-3xl shadow-2xl order-1 md:order-2">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold text-center text-rose-800 mb-4">Gallery</h2>
+      <p class="text-center text-gray-600 text-lg mb-12">Discover our luxurious spa environment</p>
+      
+      <div class="gallery-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <img src="https://i.ibb.co/dwnbpCND/gallery-1.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/WpzwXjZS/gallery-2.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/Q756Pmzh/gallery-3.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/Lh0jZnCt/gallery-4.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/tdg6xRc/gallery-5.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/n8QM2Ngb/gallery-6.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/ksSBhpNq/gallery-7.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/HLpJpfCT/gallery-8.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/9H5Qmv4M/gallery-9.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/Z17W06p5/gallery-10.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/LhsD2sp4/gallery-11.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+        <img src="https://i.ibb.co/tTLz92Jb/gallery-12.jpg" alt="" class="gallery-item rounded-3xl shadow-lg hover:scale-105 transition duration-300 cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="py-20 bg-gradient-to-b from-amber-50 to-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold text-center text-rose-800 mb-16">Client Reviews & Testimonials</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="review-card bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-400">
+          <div class="stars text-yellow-400 text-2xl mb-4">★★★★★</div>
+          <p class="text-gray-700 text-lg italic mb-4">"Very relaxing experience and professional service. The therapists truly understand what relaxation means. I left feeling completely rejuvenated!"</p>
+          <p class="font-semibold text-rose-800">— Aroyehun Cecilia</p>
+        </div>
+
+        <div class="review-card bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-400">
+          <div class="stars text-yellow-400 text-2xl mb-4">★★★★★</div>
+          <p class="text-gray-700 text-lg italic mb-4">"Timeless Beauty and Spa offers excellent service at a very reasonable price. The environment is calm and welcoming. Highly recommended!"</p>
+          <p class="font-semibold text-rose-800">— Serif Olapade</p>
+        </div>
+
+        <div class="review-card bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-400">
+          <div class="stars text-yellow-400 text-2xl mb-4">★★★★★</div>
+          <p class="text-gray-700 text-lg italic mb-4">"Best spa experience in Osogbo! The staff is attentive, the facilities are clean and beautiful, and the treatments are absolutely amazing."</p>
+          <p class="font-semibold text-rose-800">— Victoria Okafor</p>
+        </div>
+
+        <div class="review-card bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-400">
+          <div class="stars text-yellow-400 text-2xl mb-4">★★★★★</div>
+          <p class="text-gray-700 text-lg italic mb-4">"I have never felt more pampered and relaxed. The facial treatment left my skin glowing and smooth. Worth every penny!"</p>
+          <p class="font-semibold text-rose-800">— Amara Johnson</p>
+        </div>
+
+        <div class="review-card bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-400">
+          <div class="stars text-yellow-400 text-2xl mb-4">★★★★★</div>
+          <p class="text-gray-700 text-lg italic mb-4">"Professional, friendly, and talented staff. Every visit is a delightful escape from my busy routine. I'm now a regular!"</p>
+          <p class="font-semibold text-rose-800">— Blessing Adeyemi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-rose-800 mb-10">Find Us</h2>
+      <div class="bg-white p-4 rounded-3xl shadow-xl">
+        <iframe width="100%" height="450" style="border:0;" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5!2d4.5!3d7.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDgnMDAuMCJOIDTvwqMzMCcwMC4wIkU!5e0!3m2!1sen!2sng" 
+          allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-rose-800 text-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">Book Your Appointment</h2>
+      
+      <div class="flex flex-wrap justify-center gap-6 mt-12">
+        <a href="tel:09056306552" class="bg-white text-rose-800 px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+          <i class="fas fa-phone mr-2"></i> Call 0905 630 6552
+        </a>
+        <a href="https://www.instagram.com/timelessbeautyandspa65" target="_blank" class="bg-white text-rose-800 px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+          <i class="fab fa-instagram mr-2"></i> Instagram
+        </a>
+        <a href="https://www.tiktok.com/@timeless0897" target="_blank" class="bg-white text-rose-800 px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+          <i class="fab fa-tiktok mr-2"></i> TikTok
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/2349056306552?text=Hello%20Timeless%20Beauty%20%26%20Spa%2C%20I%20would%20like%20to%20book%20a%20service." 
+     class="fixed bottom-6 right-6 bg-green-600 text-white p-5 rounded-full shadow-2xl text-4xl hover:bg-green-700 z-50"
+     target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <img src="https://i.ibb.co/Rph7twRV/logo.png" alt="Logo" class="h-12 w-auto mb-4">
+          <p class="text-gray-400">Timeless Beauty & Spa</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+        <p>© 2026 Timeless Beauty & Spa. All Rights Reserved.</p>
+        <p class="text-sm mt-3">website by BABALOLA PRECIOUS [C.E.O]</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
